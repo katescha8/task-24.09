@@ -136,36 +136,49 @@ namespace Homework3
             //    case 6: Console.WriteLine(DayofWeek.Суббота); break;
             //    case 7: Console.WriteLine(DayofWeek.Воскресенье); break;
             //}
-            Console.WriteLine("Задание 10");
-            int[] array = { 11, 2, 31,44,4 };
-            int min = 100;
-            int max = 0;
-            int n = 0;
-            int n2,n3,n4;
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (array[i] < min)
-                { min = array[i]; }
-            }
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (array[i] > max)
-                { max = array[i]; }
-            }
-            int min1 = max - min;
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (max - array[i] < min1 && array[i] != max)
-                { 
-                    min1 = max - array[i];
-                    n4 = array[i];
-                }
-            }
-            (int, int,int,int, int) t = (min,0,0,0 , max);
-            t.Item4 = n4;
-
-            
+            //Console.WriteLine("Задание 10");
+            //int[] bubble = { 52, 44, 13, 26, 1 };
+            //int var;
+            //for (int i = 0; i < bubble.Length; i++)
+            //{
+            //    for (int j = 0; j < bubble.Length - 1 - i; j++)
+            //    {
+            //        if (bubble[j] > bubble[j + 1])
+            //        {
+            //            var = bubble[j];
+            //            bubble[j] = bubble[j + 1];
+            //            bubble[j + 1] = var;
+            //        }
+                    
+            //    }
+            //}
+            //for (int k = 0; k < bubble.Length; k++)
+            //{
+            //    Console.Write(bubble[k] + " ");
+            //}
             //Console.WriteLine("Задание 11");
+            //int[] bubble = { 1,2,3,4,5,6,7,8,9,10 };
+            //int m=0;
+            //for (int i = 0; i < bubble.Length; i++)
+            //{
+            //    for (int j = 0; j < bubble.Length -1- i; j++)
+            //    {
+            //        if (bubble[j] < bubble[j + 1])
+            //        {
+            //            m++;
+            //            //Console.WriteLine(m);
+            //        }
+            //        else
+            //        {
+                        
+            //            Console.WriteLine($"Элемент {j + 2} нарушает упорядоченность последовательности");
+            //            break;
+            //        }
+            //        if (m + 1 == bubble.Length)
+            //        { Console.WriteLine("Последовательность упорядочена"); }
+            //    }
+            //    break;
+            //}
         }
         enum DayofWeek
         {
